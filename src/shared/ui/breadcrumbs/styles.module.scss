@@ -1,0 +1,21 @@
+.breadcrumbs {
+
+  & a {
+    color: var(--angarstr-color-text);
+
+    &:hover {
+      color: var(--angarstr-color-blue);
+    }
+
+    &::after {
+      content: "/";
+      padding-left: 5px;
+      color: var(--angarstr-color-text);
+    }
+  }
+
+  & .currentPage {
+    color: var(--angarstr-color-blue);
+    padding-left: 5px;
+  }
+}

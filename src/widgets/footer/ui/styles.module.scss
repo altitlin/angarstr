@@ -1,0 +1,90 @@
+.footer {
+  padding: 64px 64px 0;
+  background-color: var(--angarstr-color-black);
+
+  & .blockInfo {
+    display: flex;
+    margin-bottom: 140px;
+    gap: 60px;
+  }
+
+  & .blockContacts {
+    margin-left: auto;
+
+    & .title {
+      border-bottom: none;
+    }
+
+    & .contacts {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      & li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      & svg {
+        width: 20px;
+        height: 20px;
+
+        & path {
+          fill: var(--angarstr-color-white);
+        }
+      }
+
+      & li a {
+        color: var(--angarstr-color-white);
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  & img {
+    width: 200px;
+    height: auto;
+  }
+
+  & .title {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    color: var(--angarstr-color-white);
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--angarstr-color-white);
+  }
+
+  & .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 60px;
+
+    & a {
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 700;
+      color: var(--angarstr-color-white);
+    }
+  }
+
+  & .copyRight {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--angarstr-color-white);
+    font-weight: 400;
+    border-top: 1px solid var(--angarstr-color-white);
+    text-align: center;
+    padding: 38px 0;
+  }
+}

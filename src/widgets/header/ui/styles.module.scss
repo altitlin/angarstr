@@ -1,0 +1,15 @@
+.header {
+  padding: 24px 64px;
+  background-color: var(--angarstr-color-black);
+
+  & .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & img {
+    width: 200px;
+    height: auto;
+  }
+}

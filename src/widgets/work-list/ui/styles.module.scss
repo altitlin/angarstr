@@ -1,0 +1,9 @@
+.workList {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  column-gap: 48px;
+  row-gap: 36px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  list-style-type: none;
+}

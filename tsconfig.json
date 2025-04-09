@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react-jsx",
+    "experimentalDecorators": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "typeRoots": ["./node_modules/@types"],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "noEmit": true,
+    "outDir": "./dist",
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "preserveConstEnums": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src",
+    "webpack"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

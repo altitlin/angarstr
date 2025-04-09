@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Inter';
+  src:
+    local('Inter Regular'),
+    local('Inter-Regular'),
+    url('../assets/fonts/inter/400/inter-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  src:
+    local('Inter Bold'),
+    local('Inter-Bold'),
+    url('../assets/fonts/inter/700/inter-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
