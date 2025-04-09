@@ -1,0 +1,11 @@
+  .list {
+  width: 100%;
+  display: grid;
+  column-gap: 48px;
+  row-gap: 72px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 72px;
+  border-radius: 48px;
+  background-color: var(--angarstr-color-white);
+  box-shadow: 12px 12px 20px var(--angarstr-color-box-shadow);
+}

@@ -1,0 +1,21 @@
+.works {
+  & header {
+    padding: 84px 0;
+    width: 100%;
+    background: transparent linear-gradient(180deg, #F7C95F 0%, #FDB235 100%) 0% 0% no-repeat padding-box;
+
+    & h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 56px;
+      line-height: 75px;
+      letter-spacing: -1.2px;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+
+  & .container {
+    padding: 84px 120px;
+  }
+}

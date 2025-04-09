@@ -1,0 +1,55 @@
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &.roundedFull {
+    border-radius: 9999px;
+  }
+
+  &.small {
+    padding: 8px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &.medium {
+    padding: 8px 12px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &.large {
+    padding: 8px 16px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  &.outlined {
+    background-color: transparent;
+
+    &.white {
+      border: 1px solid var(--angarstr-color-white);
+      color: var(--angarstr-color-white);
+    }
+  }
+
+  &.contained {
+    &.yellow {
+      background-color: var(--angarstr-color-yellow);
+      border: 1px solid var(--angarstr-color-yellow);
+
+      &:hover {
+        background-color: #fdb235;
+      }
+    }
+  }
+
+  &.ghost {
+    border: none;
+    background: transparent;
+  }
+}

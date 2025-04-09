@@ -1,0 +1,37 @@
+.workCard {
+  width: 100%;
+  height: auto;
+  border-radius: 48px;
+  background-color: var(--angarstr-color-white);
+  overflow: hidden;
+
+  & figure {
+    margin: 0;
+    padding: 0;
+  }
+
+  & img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  & .content {
+    padding: 48px;
+  }
+
+  & .content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 25px;
+  }
+
+  & .content p {
+    margin: 0;
+    padding: 0;
+  }
+}
